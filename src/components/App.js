@@ -86,7 +86,7 @@ const App = () => {
    <div className="App">
     <Header text="Pick Flick" />
     <Search search={search} />
-    <p className="App-intro">Sharing a few of our favourite movies</p>
+    <p className="App-intro">Search for your movies!</p>
     <div className="movies">
       {loading && !errorMessage ? (
        <span>loading...</span>
